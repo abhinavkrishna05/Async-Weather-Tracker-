@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="weatherForm">
+        <h4>Search City: </h4>
+        <form id="weatherForm">
+            <input type="text" id="city">
+            <input type="submit" value="Search">
+        </form>
+        <h3>Search History</h3>
+        <div class="history"></div>
+    </div>
+    <div class="info"></div>
+    </div>
+        <div class="console">
+            <h3>Console - Event Loop</h3>
+            <p class="sync">1️⃣Sync Start<br>2️⃣Sync End</p>
+            <p class="async">[ASYNC] Start fetching<br>3️⃣Promise.then (Microtask)<br>4️⃣setTimeout (Macrotask)</p>
+            <p class="async highlight">[ASYNC] Data received</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
